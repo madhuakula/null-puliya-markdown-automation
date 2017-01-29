@@ -2,3 +2,14 @@ Elementary Operating System:
   ☐ update & upgrade & autoremove
   ☐ Git
   ☐ Chromium browser
+  ☐ Sublime Text
+    ☐ Package Control
+      ☐ Markdown Preview
+      ☐ Markdown Editing
+      ☐ Git
+      ☐ Git Gutter
+      ☐ PlainTasks
+      ☐ SublimeCodeIntel
+      ☐ SideBarEnhancements
+      ☐ BracketHighlighter
+      ☐ Alignment
