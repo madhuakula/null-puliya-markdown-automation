@@ -15,6 +15,11 @@ $ sudo apt-get update && sudo apt-get upgrade
 $ sud apt autoremove
 ```
 
+- Installing basic software properties by running below command
+
+```
+$ sudo apt-get install software-properties-common
+```
 
 ### Installing `git`
 
@@ -76,4 +81,15 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 8. BracketHighlighter
 9. Alignment
 
+### Installing Terminator
+
+- Terminator is a terminal software for Linux operating system, to install terminator run the below commands
+
+```
+$ sudo add-apt-repository ppa:gnome-terminator
+$ sudo apt-get update
+$ sudo apt-get install terminator
+```
+
+**Reference:** - [https://gnometerminator.blogspot.in/p/introduction.html](https://gnometerminator.blogspot.in/p/introduction.html)
 
