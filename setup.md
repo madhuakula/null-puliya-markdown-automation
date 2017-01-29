@@ -15,3 +15,13 @@ $ sudo apt-get update && sudo apt-get upgrade
 $ sud apt autoremove
 ```
 
+
+### Installing `git`
+
+- To install git in operating system, run the below command
+
+```
+$ sudo apt-get install git -y
+```
+
+- 
