@@ -110,3 +110,15 @@ $ sudo apt-get install fonts-hack-ttf
 *Note:* Shout out to Akash for this (when I joined Appsecco, he told about this font and why to use this font)
 
 
+### Installing Markdown Editor
+
+- There are multiple editors available for markdown, for example Linux: [ReText](https://github.com/retext-project/retext), Mac: [MOU](http://25.io/mou/), Windows: [MarkdownPad](http://markdownpad.com)
+- We are going to install `ReText`, to install run the below commands
+
+```
+$ wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
+$ sudo dpkg -i remarkable_1.87_all.deb
+$ rm remarkable_1.87_all.deb
+```
+
+**Reference:** - [https://remarkableapp.github.io/linux/download.html](https://remarkableapp.github.io/linux/download.html)
