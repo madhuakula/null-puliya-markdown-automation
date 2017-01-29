@@ -116,9 +116,6 @@ $ sudo apt-get install fonts-hack-ttf
 - We are going to install `ReText`, to install run the below commands
 
 ```
-$ wget https://remarkableapp.github.io/files/remarkable_1.87_all.deb
-$ sudo dpkg -i remarkable_1.87_all.deb
-$ rm remarkable_1.87_all.deb
+$ sudo apt-get install retext
 ```
 
-**Reference:** - [https://remarkableapp.github.io/linux/download.html](https://remarkableapp.github.io/linux/download.html)
