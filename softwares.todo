@@ -1,25 +1,28 @@
 Elementary Operating System:
-  ☐ update & upgrade & autoremove
-  ☐ Git
-  ☐ Chromium browser
-  ☐ Sublime Text
-    ☐ Package Control
-      ☐ Markdown Preview
-      ☐ Markdown Editing
-      ☐ Git
-      ☐ Git Gutter
-      ☐ PlainTasks
-      ☐ SublimeCodeIntel
-      ☐ SideBarEnhancements
-      ☐ BracketHighlighter
-      ☐ Alignment
- ☐ Terminator
- ☐ Hack font
- ☐ ReText
- ☐ Zeal
- ☐ Node
- ☐ Reveal-md
- ☐ Raneto
- ☐ Gitbook
- ☐ MkDocs
- ☐ Pandoc
+  ✔ update & upgrade & autoremove @done (17-02-07 21:03)
+  ✔ Git @done (17-02-07 21:03)
+  ✔ Chromium browser @done (17-02-07 21:03)
+  ✔ Sublime Text @done (17-02-07 21:03)
+    ✔ Package Control @done (17-02-07 21:03)
+      ✔ Markdown Preview @done (17-02-07 21:03)
+      ✔ Markdown Editing @done (17-02-07 21:03)
+      ✔ Git @done (17-02-07 21:03)
+      ✔ Git Gutter @done (17-02-07 21:03)
+      ✔ PlainTasks @done (17-02-07 21:03)
+      ✔ SublimeCodeIntel @done (17-02-07 21:03)
+      ✔ SideBarEnhancements @done (17-02-07 21:03)
+      ✔ BracketHighlighter @done (17-02-07 21:03)
+      ✔ Alignment @done (17-02-07 21:03)
+      ☐ Markmon real-time markdown preview
+ ✔ Terminator @done (17-02-07 21:03)
+ ✔ Hack font @done (17-02-07 21:03)
+ ✔ ReText @done (17-02-07 21:03)
+ ✔ Zeal @done (17-02-07 21:03)
+ ✔ Node @done (17-02-07 21:03)
+ ✔ Reveal-md @done (17-02-07 21:03)
+ ✔ Raneto @done (17-02-07 21:03)
+ ✔ Gitbook @done (17-02-07 21:03)
+ ✔ MkDocs @done (17-02-07 21:04)
+ ✔ Pandoc @done (17-02-07 21:04)
+ ☐ Gitbook Editor
+ ☐ mdless
