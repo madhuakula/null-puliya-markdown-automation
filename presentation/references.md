@@ -1,0 +1,3 @@
+- http://www.markdowntutorial.com/
+- http://brettterpstra.com/2011/08/31/why-markdown-a-two-minute-explanation/
+- https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/why-use-version-control
