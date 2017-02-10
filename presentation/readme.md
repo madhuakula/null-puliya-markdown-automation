@@ -561,3 +561,82 @@ Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious s
 - Plugins
 - Beautiful default theme
 
+
+## Let's create basic GitBook
+- To initiate gitbook, run the below command
+```
+$ gitbook init /home/ubercool/nullbook
+$ cd /home/ubercool/nullbook
+```
+
+- Now serve the gitbook by running below command
+```
+$ gitbook serve
+```
+
+- Now navigate to [http://localhost:4000])(http://localhost:4000)
+
+
+## How to add content to GitBook
+- Now we have to write our `Markdown` file.
+- For example, run the below command open sublime with `null-puliya.md` under docs folder in another terminal window
+```
+$ subl /home/ubercool/nullbook/null-puliya.md
+```
+
+- Then paste the below `Markdown` text and save the file
+````
+# Pentesting Report
+
+## Cross Site Scripting Vulnerability (XSS)
+
+### Vulnerable System
+
+The application *search field* is vulnerable to cross site scripting vulnerability aka **XSS**
+
+### Overview
+Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted web sites.
+
+### Proof of Concept
+- Login to the port and navigate to the [http://localhost/search.php](http://localhost/search.php)
+- Insert the below payload and click on search button
+
+```
+<script>alert(1)</script>
+```
+
+- Then you can see the alert box.
+- Please find the below sample output screen shot for reference
+
+![xss](file:///home/ubercool/Downloads/xss.png)
+
+### Solution
+
+- [Reference for more details can found here](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
+````
+
+
+## GitBook [Contd.]
+- Then we have to add that to index file called `SUMMARY.md`. Open the `SUMMARY.md` file using below command
+
+```
+$ subl /home/ubercool/nullbook/SUMMARY.md
+```
+
+- Then add the below content at the end of the file
+```
+* [Presentation](null-puliya.md)
+```
+
+- Now go back the browser and see the updated GitBook page
+
+
+## How about using Editor - GitBook Editor
+- GitBook Editor is available for all platforms
+- It's GUI for writing GitBooks
+- Open GitBook Editor application from the menu
+- It has integration with Git as well
+
+
+## GitBook Editor
+![GitBook Editor](images/gitbook-editor.png)
