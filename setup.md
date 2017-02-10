@@ -205,3 +205,13 @@ $ rm pandoc-1.19.1-1-amd64.deb
 ```
 
 **Reference:** - [http://pandoc.org/installing.html](http://pandoc.org/installing.html)
+
+#### Installing `phantomjs`
+
+- To install `phantomjs` run the below command
+
+```
+$ sudo apt-get install phantomjs
+```
+
+- It is used to take print of pdf from reveal-md
