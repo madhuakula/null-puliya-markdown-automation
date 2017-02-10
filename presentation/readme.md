@@ -339,3 +339,66 @@ $ git clone https://github.com/madhuakula/null-puliya-adpk-markdown.git
 
 - [https://scotch.io/tutorials/using-git-inside-of-sublime-text-to-improve-workflow](https://scotch.io/tutorials/using-git-inside-of-sublime-text-to-improve-workflow)
 
+
+
+## Introducing [Reveal JS](http://lab.hakim.se/reveal-js/)
+- A framework for easily creating beautiful presentations using HTML
+
+> `reveal.js` comes with a broad range of features including nested slides, Markdown contents, PDF export, speaker notes and a JavaScript API. There's also a fully featured visual editor and platform for sharing reveal.js presentations at slides.com.
+
+
+## How to automated Markdown to Presentation(reveal.js) using reveal-md
+**What is reveal.md?**
+> reveal.js on steroids! Get beautiful reveal.js presentations from your Markdown files
+
+- `reveal-md` is a nodejs tool to convert and preview `reveal.js` presentations using markdown
+
+
+## reveal-md demo
+- Open sublime and create new file and paste the below content and save with `.md` extension
+    + For examples `presentation.md`
+
+```
+# Title
+
+* Point 1
+* Point 2
+
+---
+
+## Second slide
+
+> Best quote ever.
+
+Note: speaker notes FTW!
+```
+
+
+## reveal-md demo [Contd.]
+- Now open your terminal and type the below command. Make sure the md file path is `presentation.md` (your markdown file) correct.
+
+```
+$ reveal-md ~/Documents/presentation.md
+```
+
+- Now it will automatically open this in your favourite browser.
+- Press `s` to see the speaker view
+
+Note: If time permits, we can do simple exercises
+
+
+## reveal-md demo [Contd.]
+- To print the presentation, run the below command
+```
+$ reveal-md ~/Documents/presentation.md --print ~/Documents/presentation.pdf
+```
+
+- We can also use separators (vertical, horizontal) and different themes as well
+
+
+## reveal-md demo [Contd.]
+![reveal-md](images/reveal-md-help.png)
+
+- Check out [https://github.com/webpro/reveal-md](https://github.com/webpro/reveal-md) for more details
+
+
