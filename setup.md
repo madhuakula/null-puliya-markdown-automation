@@ -206,8 +206,7 @@ $ rm pandoc-1.19.1-1-amd64.deb
 
 **Reference:** - [http://pandoc.org/installing.html](http://pandoc.org/installing.html)
 
-#### Installing `phantomjs`
-
+### Installing `phantomjs`
 - To install `phantomjs` run the below command
 
 ```
@@ -215,3 +214,13 @@ $ sudo apt-get install phantomjs
 ```
 
 - It is used to take print of pdf from reveal-md
+
+
+### Installing `GitBook Editor`
+- To install GitBook Editor run the below command
+```
+$ wget http://downloads.editor.gitbook.com/download/linux -O gitbookeditor.deb
+$ sudo dpkg -i gitbookeditor.deb
+$ rm gitbookeditor.deb
+```
+
