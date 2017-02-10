@@ -65,27 +65,24 @@ Password: forgot
 - We can version control everything
 - Generate awesome things (PDF, HTML, etc)
 
-## Markdown Cheat Sheet
 
+## Markdown Cheat Sheet
 - Get here [http://packetlife.net/media/library/16/Markdown.pdf](http://packetlife.net/media/library/16/Markdown.pdf)
 - Open offline copy at `Documents/markdown-cheat-sheet.pdf`
 - To know more about syntax [https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
 
 
 ## Open Markdown Editor (ReText) and Follow below
-
 ![Markdown-Retext](images/markdown-retext.png)
 
 
 ## Exercise-1
-
 ![Exercise-1](images/ex-1.png)
 
 - Hint: Image can found here `home/ubercool/Downloads/xss.png`
 
 
 ## Exercise-1 Solution
-
 ````
 # Pentesting Report
 
@@ -177,29 +174,23 @@ $ git add test.txt
 
 ## Git basics [contd.]
 - Check the status
-
 ```
 $ git status
 ```
 
-
 - Commit the changes to the repository
-
 ```
 $ git commit -m "added initial test.txt file"
 ```
 
 - Check the status once again
-
 ```
 $ git status
 ```
 
 
 ## Git basics [contd.]
-
 - Add different data into `test.txt` file
-
 ```
 $ echo "this is different content" > test.txt
 $ git status
@@ -212,7 +203,6 @@ $ git status
 
 ## Git basics [contd.]
 - Now let's browse them to see what we changed.
-
 ```
 $ git log
 ```
@@ -235,13 +225,11 @@ $ git remote add origin https://github.com/username/reponame.git
 ```
 
 - Push the changes to remote repository
-
 ```
 $ git push -u origin master
 ```
 
 - To pull the changes
-
 ```
 $ git pull origin master
 ```
@@ -256,4 +244,98 @@ $ git clone https://github.com/madhuakula/null-puliya-adpk-markdown.git
 - Check this out for more reference [http://rogerdudler.github.io/git-guide/](http://rogerdudler.github.io/git-guide/)
 
 
-## 
+## Introducing Sublime Text
+> Sublime Text is a sophisticated text editor for code, markup and prose.
+
+![Sublime](images/sublime.png)
+
+
+## Sublime Basics
+- It has bunch of features & plug-ins to automate work flows
+- Open sublime application from the menu
+
+
+## Sublime Exercise
+- Simple automated work flow with syntax from Sublime Text website
+
+```
+[Monday, Tuesday, Wednesday, Thursday, Friday]
+```
+
+## Installed plug-ins & use case
+
+- [Package control](https://packagecontrol.io/) is to manage all packages in sublime text
+    + [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
+    + [Markdown Editing](https://github.com/SublimeText-Markdown/MarkdownEditing)
+    + [Git](https://github.com/SublimeGit/SublimeGit)
+    + [Git Gutter](https://github.com/jisaacks/GitGutter)
+    + [PlainTasks](https://github.com/aziz/PlainTasks)
+    + [SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+    + [SideBarEnhancements](https://github.com/SideBarEnhancements-org/SideBarEnhancements)
+    + [BracketHighlighter](https://github.com/facelessuser/BracketHighlighter)
+  
+
+## Let's start with Plain Tasks
+- Open sublime text application and save file with `.todo` extension
+    + For example `puliya.todo`
+- Now we can create projects, tasks, priority, etc. 
+- This is simple and super powerful project management tool
+
+
+## Sublime Text Plug-ins (Plain Tasks)
+- Click on `File -> Open File` and select `Documents/puliya.todo` file
+
+![Plain Tasks](images/plain-tasks.png)
+
+
+## Sublime Text Plug-ins (Markdown Preview and Markdown Editing)
+- These plug-ins will allow us to write `Markdown` in sublime and also to generate HTML documents.
+- Click on `File -> New File` and save file with `.md` extension
+    + For example `puliya.md`
+- Now we can write Markdown text here
+
+
+## Sublime Text Plug-ins (Markdown Preview and Markdown Editing)
+- Click on `File -> Open File` and select `Documents/puliya.md` file
+
+![Markdown Preview](images/markdown-preview.png)
+
+## Sublime Text Plug-ins (Markdown Preview and Markdown Editing)
+- Automating the live HTML preview in real-time
+- Press `ctrl+b`
+
+![Markdown Preview Compile](images/markdown-preview-compile.png)
+
+
+## Sublime Text Plug-ins (Markdown Preview and Markdown Editing)
+- Now open that path in your browser
+
+![Markdown Preview Compile](images/markdown-preview-browser.png)
+
+
+## Sublime Text Plug-ins (Markdown Preview and Markdown Editing)
+- Automating the work flow of compilation and preview using sublime short-cuts
+- Open `Preference -> Package Settings -> Markdown Editing -> Key Bindings - User` and paste the below code
+
+```
+[
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+]
+```
+
+- Now just press `alt + m` on keyboard and it will automatically compile and preview in the favourite browser
+
+## Sublime Text Plug-ins (Git & Git Gutter)
+- Get more productive with git using sublime text
+- Open the project folder where your git project is available
+- `ctrl + shift + p`, then type Git and you’ll see your available Git commands.
+- `ADD`, `COMMIT`, AND `PUSH` WITHIN SUBLIME TEXT
+
+
+## Sublime Text Plug-ins (Git & Git Gutter) [Contd.]
+- My workflow when trying to push code to the server inside of Sublime Text looks like:
+
+> `ctrl + shift + p`, then type `Add current file` and `ctrl + shift + p`, type `quick commit`, then type `message` `ctrl + shift + p`, type `push`
+
+- [https://scotch.io/tutorials/using-git-inside-of-sublime-text-to-improve-workflow](https://scotch.io/tutorials/using-git-inside-of-sublime-text-to-improve-workflow)
+
