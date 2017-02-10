@@ -677,3 +677,38 @@ Pandoc is awesome
 $ pandoc -o test.docx -f markdown -t docx test.md
 ```
 
+
+## Advanced Implementation (Complete Automation)
+- Create markdown files in sublime text
+- Version control markdown files using `git` inside sublime text
+- Commit changes and push to Github (or) Bitbucket (or) Gitlab
+- Create webhook (or) CI tool integration
+    + To copy these content to raneto directory and automate the KB
+    + Convert into documents, presentations using `pandoc`
+    + Create MkDocs (or) GitBooks 
+
+
+## How I created this course
+- Used Sublime Text with Markdown, Git, other
+- Used PlainTasks for Project Management
+- Version Controlled everything
+- Created HTML Docs, PDF Docs, GitBooks, other
+- Created presentation using reveal-md
+- Almost applied everything what you have learned :)
+
+
+## Bonus Gifts
+- While creating course I have compiled below
+    + Version controlled everything 
+    + Documentation for setup & presentation
+    + PDF, E-Book, other formats for Setup
+    + Many other
+
+
+## Thanks to [Akash Mahajan](https://twitter.com/makash) and [Anant Shrivastava](https://twitter.com/anantshri). Initially, I learnt so many things from them :)
+
+
+
+## Thanks
+### [Madhu Akula](http://www.madhuakula.com)
+### [@madhuakula](https://twitter.com/madhuakula)
