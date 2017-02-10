@@ -640,3 +640,40 @@ $ subl /home/ubercool/nullbook/SUMMARY.md
 
 ## GitBook Editor
 ![GitBook Editor](images/gitbook-editor.png)
+
+
+
+## Markdown Automation Use Cases - Introducing [Pandoc](http://pandoc.org/)
+> Pandoc is an universal document converter
+
+- If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
+
+
+## Pandoc Conversions
+![Pandoc](images/pandoc.jpg)
+
+
+## Simple Automated work-flow from `Markdown` to `MS Word Document`
+- Convert Markdown file to MS Word Document using pandoc
+```
+$ pandoc -o <output word file> -f markdown -t docx <input markdown file>
+```
+
+- Create a sample markdown file `subl test.md` and save the file
+```
+# This is heading one
+Random content for word document testing
+
+## Second Heading
+Pandoc is awesome
+
+### This is final one
+- Cool stuff
+- Ubercool stuff
+```
+
+- Run the below command to convert markdown file to docx (word document)
+```
+$ pandoc -o test.docx -f markdown -t docx test.md
+```
+
