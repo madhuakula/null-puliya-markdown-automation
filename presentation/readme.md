@@ -662,6 +662,22 @@ $ subl /home/ubercool/nullbook/SUMMARY.md
 ![GitBook Editor](images/gitbook-editor.png)
 
 
+### Generating PDF, epub, Mobi using GitBook
+
+```
+# Generate a PDF file
+$ gitbook pdf ./ ./mybook.pdf
+
+# Generate an ePub file
+$ gitbook epub ./ ./mybook.epub
+
+# Generate a Mobi file
+$ gitbook mobi ./ ./mybook.mobi
+```
+
+Note: Installing ebook-convert is required to generate ebooks (epub, mobi, pdf).
+[https://toolchain.gitbook.com/ebook.html](https://toolchain.gitbook.com/ebook.html)
+
 
 ### Markdown Automation Use Cases - Introducing [Pandoc](http://pandoc.org/)
 > Pandoc is an universal document converter
