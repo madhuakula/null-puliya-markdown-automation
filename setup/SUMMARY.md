@@ -18,4 +18,4 @@
 * [Pandoc](pandoc.md)
 * [Phantomjs](phantomjs.md)
 * [Gitbook Editor](gitbook-editor.md)
-
+* [Calibre](calibre.md)
