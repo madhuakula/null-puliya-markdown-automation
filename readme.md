@@ -1,5 +1,7 @@
 # Title: Automating Documentation, Presentation, Knowledge base using Markdown (Zero to Hero)
 
+[https://madhuakula.com/content/automating-documentation-presentation-knowledgebase-using-markdown/](https://madhuakula.com/content/automating-documentation-presentation-knowledgebase-using-markdown/)
+
 ### Overview:
 
 Most of us are excellent at doing things, but when it comes to documentation it's one of the boring task ever in life. This workshop is primarily focus on how can we automate writing awesome documentation, creating presentations and building knowledge base using Markdown. We will also see some useful tips & tricks to version control everything and building ubercool e-books using GitBooks.
